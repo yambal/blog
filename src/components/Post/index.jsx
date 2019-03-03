@@ -14,12 +14,15 @@ class Post extends React.Component {
     } = this.props.data.node.frontmatter
     const { slug, categorySlug } = this.props.data.node.fields
 
+    let tracedSVG;
     if (cover) {
       console.log('cover', cover.childImageSharp.fluid.tracedSVG)
+      tracedSVG = <img src={ cover.childImageSharp.fluid.tracedSVG } />
     }
 
     return (
       <div className="post">
+        {tracedSVG}
         <div className="post__meta">
           <time
             className="post__meta-time"
