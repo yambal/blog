@@ -7,8 +7,9 @@ path: "/posts/first-blog-posts/"
 category: "gatsby-v2-starter-lumen"
 tags:
   - "Gatsby"
+  - "React"
 description: "Gatsby のStaerterをためしてみてる。"
+cover: "./mountains.jpg"
 ---
 
-`gatsby new blog https://github.com/GatsbyCentral/gatsby-v2-starter-lu
-men`
+`gatsby new blog https://github.com/GatsbyCentral/gatsby-v2-starter-lumen`
