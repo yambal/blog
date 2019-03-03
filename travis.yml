@@ -37,3 +37,5 @@ addons:
 script:
   - npm install
 - npm run lint
+
+TEST
