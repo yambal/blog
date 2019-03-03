@@ -74,7 +74,13 @@ export const pageQuery = graphql`
             date
             category
             description
-            cover
+            cover {
+              childImageSharp {
+                fluid(maxWidth: 850, quality: 90, traceSVG: { color: "#f3f3f3" }) {
+                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                }
+              }
+            }
           }
         }
       }

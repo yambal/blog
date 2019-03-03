@@ -9,7 +9,7 @@ tags:
   - "Gatsby"
   - "React"
 description: "Gatsby のStaerterをためしてみてる。"
-cover: "./mountains.jpg"
+cover: "./1.jpg"
 ---
 
 `gatsby new blog https://github.com/GatsbyCentral/gatsby-v2-starter-lumen`
