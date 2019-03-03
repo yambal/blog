@@ -15,7 +15,7 @@ class Post extends React.Component {
     const { slug, categorySlug } = this.props.data.node.fields
 
     if (cover) {
-      console.log('cover', cover.childImageSharp)
+      console.log('cover', cover.childImageSharp.fluid.tracedSVG)
     }
 
     return (
