@@ -10,8 +10,10 @@ class Post extends React.Component {
       date,
       category,
       description,
+      cover
     } = this.props.data.node.frontmatter
     const { slug, categorySlug } = this.props.data.node.fields
+    console.log('cover', cover)
 
     return (
       <div className="post">
