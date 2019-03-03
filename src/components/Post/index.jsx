@@ -13,7 +13,7 @@ class Post extends React.Component {
       cover
     } = this.props.data.node.frontmatter
     const { slug, categorySlug } = this.props.data.node.fields
-    console.log('cover', cover)
+    console.log('cover', cover.childImageSharp)
 
     return (
       <div className="post">
