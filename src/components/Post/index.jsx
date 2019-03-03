@@ -13,7 +13,10 @@ class Post extends React.Component {
       cover
     } = this.props.data.node.frontmatter
     const { slug, categorySlug } = this.props.data.node.fields
-    console.log('cover', cover.childImageSharp)
+
+    if cover
+      ? console.log('cover', cover.childImageSharp)
+      : console.log('cover none')
 
     return (
       <div className="post">
